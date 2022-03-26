@@ -1,0 +1,433 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  }
+
+.right-menu li{
+  display: inline;
+  position: relative;
+  top:13px;
+}
+
+.right-menu li .fa{
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.navbar-brand img{
+  width: 160px;
+
+}
+.navbar-brand{
+  left: 50%;
+  top: 25px;
+  /*transform: translateX(-50%);
+  position: absolute;*/
+}
+
+.header{
+  background-color: #f5f6fc;
+  margin-bottom: 80px;
+}
+
+.navbar{
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 15px;
+
+}
+
+.navbar-toggler{
+  border: none;
+  outline: none;
+  padding: 0;
+  margin-top: 30px;
+}
+.navbar-toggler .fa{
+  font-size: 30px;
+  cursor: pointer;
+
+}
+.banner-img{
+  margin: 80px 115px;
+  width: 60%;
+}
+
+.banner-img img{
+  width: 100%;
+  margin-bottom: -80px;
+}
+
+.banner{
+  position: relative;
+}
+
+.banner-title{
+  position:absolute;
+  left: 50%;
+  top: 20%;
+}
+.banner-title h1{
+  font-size: 55px;
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  line-height: 70px;
+  padding: 0px 10px 0px 10px;
+}
+
+/*------------ fashion trends------------------*/
+
+.fashion-trends{
+  padding: 100px 0px;
+
+}
+
+.fashion-box{
+  margin: 80px 0;
+}
+
+
+.title-style h1{
+  padding: 40px 0;
+}
+
+.title-style{
+  margin: 0 auto 80px;
+  height: 120px;
+  width: 80%;
+  max-width: 700px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+
+.title-style::after{
+  content: '';
+  height: 100px;
+  width: 200px;
+  background-color: #f992a6;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: -1;
+
+}
+
+.title-style::before{
+  content: '';
+  height: 100px;
+  width: 200px;
+  background-color: #f992a6;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  z-index: -1;
+
+}
+
+
+
+
+.trending-img{
+  position: relative;
+margin-bottom: 15px
+}
+
+.trending-img img{
+  height: 500px;
+  width: 100%;
+  
+
+}
+
+.btn-buy{
+  width: 150px;
+  padding: 10px 0;
+  outline: none !important;
+  border: 0;
+  border-radius: 2px;
+  position: absolute;
+  background-color: #fff;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%,0);
+  transition: .6s;
+  opacity: 0;
+  z-index: 1;
+    
+}
+.btn-buyLink{
+  color:black;
+  text-decoration: none;
+
+}
+
+.trending-img:hover .btn-buy{
+  transform: translate(-50%,50%);
+  bottom: 50%;
+  opacity: 1;
+  
+}
+
+.overlay{
+  height: 0;
+  width: 100%;
+  background: #333;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: .5s;
+  }
+
+  .trending-img:hover .overlay{
+    opacity: .5;
+    height: 100%;
+  }
+
+
+  /************************** OFFER *******************/
+
+  .offer{
+    background-image: url('images/nicholas-kampouris-ZIW_wcbjKLw-unsplashh.jpg');
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .row{
+    margin: initial !important;
+  }
+
+  .subscribe{
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background-color: #ffffff8c;
+    margin-bottom: 20px;
+  }
+
+  .subscribe a{
+    width: 100px;
+    display: block;
+    color: #fff !important;
+    background: #000;
+    text-decoration: none !important;
+    padding: 5px;
+    text-align: center;
+
+  }
+
+  .offer-img{
+    height: 400px;
+    width: 300px;
+    margin: -100px;
+    margin-top: 150px;
+    
+  }
+
+
+  /**************** FASHION BLOG *******************/
+
+  .fashion-blog{
+    margin: 250px 0 150px 0;
+  }
+
+  .blog-img img{
+    height: 100%;
+    width: 100%;
+  }
+  .fashion-blog h5{
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+
+  /*========== fashion brands ===============*/
+
+  .fashion-brands{
+    margin-bottom: 150px;
+  
+  }
+
+  .brand-logo{
+    height: 200px;
+    width: 200px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 50px auto 30px;
+    box-shadow: 0 2px 40px 0 rgba(29, 31, 37, 0.18);
+  }
+
+  .brand-logo img{
+    width: 100px;
+    margin: 50px auto;
+  }
+
+  .fashion-brands p
+  {
+    margin-top: 30px;
+    font-weight: bold;
+  }  
+
+  /*============= FOOTER ============*/
+   
+  .footer{
+    margin-top: 150px;
+    background: #f5f6fc;
+  }
+
+  .payment, .insta-img, .app-download  {
+    margin: 50px auto;
+  }
+  .payment img{
+    width: 300px;
+    cursor: pointer;
+  }
+  
+  .insta-img img{
+    width: 75px ;
+    height: 85px;
+    padding: 5px;
+    cursor: pointer;
+
+  }
+
+  .app-download img{
+    width: 200px;
+
+  }
+
+  .footer h5{
+    margin-bottom: 50px;
+  }  
+  .footer h5::before{
+    content: '';
+    width: 80px;
+    height: 3px;
+    background: #4f74e8;
+    top: 80px;
+    position: absolute;
+  }
+
+  /*========= icons =============*/
+
+  .social-media{
+    margin: 20px auto;
+    padding-top: 10px;
+    box-shadow:0 2px 40px 0 rgba(29, 31, 37, 0.18);
+  }
+
+  .socialmedia-icons{
+    text-align: right;
+  }
+
+  .socialmedia-icons .fa{
+    margin: 0 10px auto;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  /*============== for small device =========*/
+
+  @media only screen and (max-width:900px)
+  {
+    .banner-img
+    {
+      margin: 40px auto;
+      width: 80%;
+
+    }
+    .banner-title
+    {
+      top: 170px;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    .banner-title h1
+    {
+      font-size: 16px;
+      padding: 5px;
+      line-height: 20px;
+    }
+    .title-style h1{
+      font-size: 25px;
+
+    }
+    .offer-img
+    {
+      margin-top: 20px !important;
+      margin-bottom: 0 !important;
+    }
+    .socialmedia-icons
+    {
+      text-align: center;
+    }
+    .copyright
+    {
+      text-align: center;
+    }
+  }
+
+
+  /*======= CONTACT FORM ============*/
+  .contact-form
+  {
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+    margin: 50px auto;
+    width: 350px;
+    text-align: center;
+  }
+  .contact-form h2
+  {
+    background-color: #efefef;
+    margin-top: 0;
+    padding: 10px;
+    
+  }
+  .contact-form input
+  {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+
+  }
+  .contact-form textarea 
+  {
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    height: 80px;
+
+  }
+
+  .button-men{
+      background-color: rgb(7, 7, 7);
+      border-radius: 5px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      font-size: 16px;
+  }
+
+  .button-men {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+  .button-men:hover {
+    background-color: rgb(255, 255, 255); 
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+  }
+
+
+  .top-icon .fa{
+    margin: 0 10px auto;
+    font-size: 25px;
+    cursor: pointer;
+  }
